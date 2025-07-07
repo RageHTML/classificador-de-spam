@@ -40,7 +40,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 3. Separação de treino e teste
 
-![Etapa 3](assets/etapa3-train-test.png)
+![Etapa 3](separar-treino-teste.png)
 
 - Utilizamos `train_test_split` com 20% para teste.
 - Mantemos a distribuição com `random_state=42` para reprodutibilidade.
@@ -49,7 +49,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 4. Vetorização com TF-IDF
 
-![Etapa 4](assets/etapa4-tfidf.png)
+![Etapa 4](vetorizar-texto.png)
 
 - Treinamos o vetorizador **apenas nos dados de treino** (`fit_transform`)
 - Depois transformamos os dados de teste com o mesmo vocabulário (`transform`)
@@ -58,7 +58,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 5. Treinamento do modelo
 
-![Etapa 5](assets/etapa5-modelo.png)
+![Etapa 5](treinar-modelos.png)
 
 - Utilizamos `MultinomialNB`, modelo leve e eficaz para texto.
 
@@ -66,7 +66,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 6. Avaliação do modelo
 
-![Etapa 6](assets/etapa6-avaliacao.png)
+![Etapa 6](avaliar-modelo.png)
 
 - Acurácia superior a 95%
 - Matriz de confusão para análise dos erros
@@ -86,7 +86,7 @@ Criei um mapa mental resumindo as bibliotecas utilizadas:
 
 Se quiser testar o projeto, abra o notebook no Colab:
 
-👉 [Abrir no Colab](https://colab.research.google.com/drive/SEU_LINK_AQUI)
+👉 [Abrir no Colab]([https://colab.research.google.com/drive/SEU_LINK_AQUI](https://colab.research.google.com/drive/1y8m1TnQbGDzoyE4fzY7m2WP-irfLz_gd?usp=sharing))
 
 ---
 
@@ -94,13 +94,12 @@ Se quiser testar o projeto, abra o notebook no Colab:
 
 Caso tenha interesse em discutir ou melhorar o projeto:
 
-📧 SeuNomeDev@gmail.com  
-💼 [linkedin.com/in/seunome](https://linkedin.com/in/seunome)
+📧 deyvidmail24@gmail.com  
+💼 [linkedin.com/in/Deyvid-Martins](https://www.linkedin.com/in/deyvid-martins-545530352/)
 
 ---
 
 ## ✅ Status
 
 ✔️ Projeto funcional e didático  
-🔜 Próximo passo: adicionar limpeza de texto (stopwords, stemming)
 
