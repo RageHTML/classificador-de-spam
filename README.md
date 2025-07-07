@@ -33,8 +33,6 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ![Etapa 2](carregar-dataset.png)
 
-- Dataset `spam.csv` contendo mensagens rotuladas como `spam` ou `ham`.
-- Renomeamos as colunas e transformamos os rótulos para 0 (ham) e 1 (spam).
 
 ---
 
@@ -42,8 +40,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ![Etapa 3](separar-treino-teste.png)
 
-- Utilizamos `train_test_split` com 20% para teste.
-- Mantemos a distribuição com `random_state=42` para reprodutibilidade.
+
 
 ---
 
@@ -51,8 +48,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ![Etapa 4](vetorizar-texto.png)
 
-- Treinamos o vetorizador **apenas nos dados de treino** (`fit_transform`)
-- Depois transformamos os dados de teste com o mesmo vocabulário (`transform`)
+
 
 ---
 
@@ -60,7 +56,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ![Etapa 5](treinar-modelos.png)
 
-- Utilizamos `MultinomialNB`, modelo leve e eficaz para texto.
+
 
 ---
 
@@ -68,9 +64,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ![Etapa 6](avaliar-modelo.png)
 
-- Acurácia superior a 95%
-- Matriz de confusão para análise dos erros
-- Classificação detalhada com precisão, recall e f1-score
+
 
 ---
 
@@ -86,7 +80,7 @@ Criei um mapa mental resumindo as bibliotecas utilizadas:
 
 Se quiser testar o projeto, abra o notebook no Colab:
 
-👉 [Abrir no Colab]([https://colab.research.google.com/drive/SEU_LINK_AQUI](https://colab.research.google.com/drive/1y8m1TnQbGDzoyE4fzY7m2WP-irfLz_gd?usp=sharing))
+👉 [Abrir no Colab]([https://colab.research.google.com/drive/1y8m1TnQbGDzoyE4fzY7m2WP-irfLz_gd?usp=sharing])
 
 ---
 
