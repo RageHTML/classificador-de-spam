@@ -69,12 +69,6 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ---
 
-## 🧠 Mapa Mental
-
-Criei um mapa mental resumindo as bibliotecas utilizadas:
-
-![Mapa Mental](assets/mapa-mental-classificador-spam.png)
-
 ---
 
 ## 🔗 Executar no Google Colab
