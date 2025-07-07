@@ -25,20 +25,20 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 1. Importação das bibliotecas
 
-![Etapa 1](importar-bibliotecas.png)
+![Etapa 1](assets/importar-bibliotecas.png)
 
 ---
 
 ### 2. Leitura e pré-processamento do dataset
 
-![Etapa 2](carregar-dataset.png)
+![Etapa 2](assets/carregar-dataset.png)
 
 
 ---
 
 ### 3. Separação de treino e teste
 
-![Etapa 3](separar-treino-teste.png)
+![Etapa 3](assets/separar-treino-teste.png)
 
 
 
@@ -46,7 +46,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 4. Vetorização com TF-IDF
 
-![Etapa 4](vetorizar-texto.png)
+![Etapa 4](assets/vetorizar-texto.png)
 
 
 
@@ -54,7 +54,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 5. Treinamento do modelo
 
-![Etapa 5](treinar-modelos.png)
+![Etapa 5](assets/treinar-modelos.png)
 
 
 
@@ -62,7 +62,8 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 6. Avaliação do modelo
 
-![Etapa 6](avaliar-modelo.png)
+![Etapa 6](assets/avaliar-modelo.png)
+![Gráfico](assets/matriz-confusion.png)
 
 
 
@@ -80,7 +81,7 @@ Criei um mapa mental resumindo as bibliotecas utilizadas:
 
 Se quiser testar o projeto, abra o notebook no Colab:
 
-👉 [Abrir no Colab]([https://colab.research.google.com/drive/1y8m1TnQbGDzoyE4fzY7m2WP-irfLz_gd?usp=sharing])
+👉 [Abrir no Colab](https://colab.research.google.com/drive/1y8m1TnQbGDzoyE4fzY7m2WP-irfLz_gd?usp=sharing)
 
 ---
 
