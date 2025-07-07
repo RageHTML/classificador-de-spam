@@ -25,7 +25,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 1. Importação das bibliotecas
 
-![Etapa 1]()
+![Etapa 1](importar-bibliotecas.png)
 
 ---
 
