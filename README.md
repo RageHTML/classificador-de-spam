@@ -69,7 +69,6 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ---
 
----
 
 ## 🔗 Executar no Google Colab
 
