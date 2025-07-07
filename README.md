@@ -31,7 +31,7 @@ Abaixo está o **fluxo completo** do projeto em etapas:
 
 ### 2. Leitura e pré-processamento do dataset
 
-![Etapa 2](assets/etapa2-preprocessamento.png)
+![Etapa 2](carregar-dataset.png)
 
 - Dataset `spam.csv` contendo mensagens rotuladas como `spam` ou `ham`.
 - Renomeamos as colunas e transformamos os rótulos para 0 (ham) e 1 (spam).
